@@ -1,6 +1,7 @@
 import dataEndpoint from './data.endpoint';
 
-const routes = function (router){
+const routes = function (router)
+{
     dataEndpoint(router);
 };
 
