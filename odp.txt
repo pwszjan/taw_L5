@@ -1,1 +1,0 @@
-Po wykryciu nowego połączenia do serwera, aplikacja użyła mechanizmu nasłuchiwania EventEmittera na zdarzenie 'connection' i wyświetliła odpowiedni komunikat w konsoli.
