@@ -79,6 +79,7 @@ const dataEndpoint = (router) => {
         response.status(200).send({ post: post });
     });
 
+
     router.put('/api/posts', async (request, response, next) => {
         const post = posts.find((item => item.id === request.body.id));
         post.title = request.body.title;
